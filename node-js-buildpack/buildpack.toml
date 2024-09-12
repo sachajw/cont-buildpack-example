@@ -1,0 +1,10 @@
+api = "0.10"
+WithWindowsBuild = false
+WithLinuxBuild = false
+
+[buildpack]
+  id = "examples/node-js"
+  version = "0.0.1"
+
+[[stacks]]
+  id = "io.buildpacks.samples.stacks.jammy"
